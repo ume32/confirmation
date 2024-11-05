@@ -1,0 +1,120 @@
+/* ベース設定 */
+body {
+    font-family: "Inika", serif;
+    background-color: #ffffff;
+    color: #8b7969;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact__content {
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.contact__heading h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #8b7969;
+    margin-bottom: 20px;
+}
+
+/* フォーム */
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group-title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #8b7969;
+    margin-bottom: 10px;
+}
+
+.form__label--item {
+    margin-right: 8px;
+}
+
+.form__label--required {
+    color: red;
+    font-size: 16px;
+}
+
+.form__input--text input[type="text"],
+.form__input--text input[type="email"],
+.form__input--text input[type="tel"],
+.form__input--textarea textarea {
+    width: 100%;
+    max-width: 400px; /* テキストボックスの最大幅を指定 */
+    padding: 8px; /* パディングを小さくして高さを調整 */
+    font-size: 16px;
+    color: #8b7969;
+    border: 1px solid #8b7969;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-sizing: border-box; /* パディングを含めたサイズ調整 */
+}
+
+/* テキストエリアの高さ */
+.form__input--textarea textarea {
+    height: 80px; /* テキストエリアの高さを調整 */
+    resize: none;
+}
+
+.form__input--text input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form__group-content label {
+    font-size: 16px;
+    color: #8b7969;
+    margin-right: 15px;
+}
+
+/* ボタン */
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    background-color: #82756a;
+    color: white;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit:hover {
+    background-color: #6f6459;
+}
+
+/* エラーメッセージ */
+.form__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* ラベルとフィールドの間の余白を統一 */
+.form__group-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* フォームタイトルの間隔をさらに広く */
+.contact__heading h2 {
+    margin-bottom: 30px;
+}

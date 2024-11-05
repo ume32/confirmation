@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.confirm__content {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.confirm__heading h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__header {
+    width: 30%;
+    padding: 10px;
+    background-color: #d3b49b;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 10px;
+    text-align: left;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form__button-submit,
+.form__button-modify {
+    padding: 10px 20px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form__button-modify {
+    background-color: #999999;
+}
+
+.form__button-submit:hover {
+    background-color: #5a2f1d;
+}
+
+.form__button-modify:hover {
+    background-color: #666666;
+}
